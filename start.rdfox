@@ -1,0 +1,7 @@
+dstore create f1
+active f1
+
+set output out
+
+endpoint start
+import +p data/upTo2020.ttl

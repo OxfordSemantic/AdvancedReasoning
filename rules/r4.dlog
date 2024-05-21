@@ -1,0 +1,11 @@
+PREFIX : <https://rdfox.com/examples/f1/>
+
+# Count race wins
+
+[?___, :hasRaceWinCount, ?___] :-
+    AGGREGATE(
+        [?___, :result_driver, ?___],
+        [?___, :result_positionOrder, 1] # Make sure the driver actually won 
+        ON ?driver
+        BIND COUNT(?___) AS ?___
+    ) .

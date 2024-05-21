@@ -1,0 +1,8 @@
+PREFIX : <https://rdfox.com/examples/f1/>
+
+# Check if a driver has reached the podium in a race
+[?driver, :hasPodiumInRace, ?race] :-
+    [?result, :result_race, ?race],
+    [?result, :result_driver, ?driver],
+    [?result, :result_positionOrder, ?positionOrder],
+    FILTER(?positionOrder < 4) .

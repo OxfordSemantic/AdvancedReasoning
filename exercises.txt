@@ -1,0 +1,18 @@
+Exercises:
+-Complete rule 4
+-import it and check it with an appropriate SPARQL query
+
+-Complete rule 6
+-import it and check it with an appropriate SPARQL query
+
+-Create a rule to find out hte fastest lap in a race
+
+-Create a rule for finding people who have teammates.
+
+
+-Incremental reasoning
+
+
+-Explain
+
+-There is a discrepancy with percentages for people like Fangio. Can you find out why?
